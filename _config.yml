@@ -1,0 +1,93 @@
+theme: minima
+
+title: Fer's Blog
+author: Fernando Delgado
+email: ikzer3@gmail.com
+#url: https://ferdlg.com
+
+timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
+future: false # GitHub Pages will publish future posts if this isn't set to false
+
+description: >
+  Dev blog that nobody will read but eh.
+# Minima variables
+twitter_username:  ikzer
+github_username:   ikzer
+linkedin_username: fernando.delgadorivero
+#instagram_username: ikzer
+#pinterest_username: ikzer
+#youtube_username: ikz3r
+rss: rss
+
+show_excerpts: false
+
+# Used by simple links page
+social-links:
+  Resume:        https://chadbaldwin.net/resume
+  LinkedIn:      https://linkedin.com/in/fernando.delgadorivero
+  StackOverflow: https://stackoverflow.com/users/1275806/ikzer
+  GitHub:        https://github.com/ikzer
+  Twitter:       https://twitter.com/ikzer
+  Reddit:        https://reddit.com/user/ikzer
+  #Credly:        https://credly.com/users/fernando-delgadoriv/
+  #PluralSight:   https://app.pluralsight.com/profile/fernando.delriv
+  Website:       https://ferdlg.com
+
+# plugin: jekyll-seo-tag
+twitter:
+  username: ikzer
+  card: summary_large_image
+social:
+  name: Fernando Delgado
+  links:
+    - https://twitter.com/ikzer
+    - https://linkedin.com/in/fernando.delgadorivero
+    - https://github.com/ikzer
+
+# plugin: jekyll-titles-from-headings
+titles_from_headings:
+  strip_title: true
+
+collections:
+  personal: # collection for personal blog posts
+    output: true
+
+header_pages:
+  #- resume.html
+  - archive.html
+  - books.md
+  #- bookmarks.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+google_analytics:
+#  - UA-185058308-1 # Old GA Universal Analytics property
+#  - G-RY6FRPMXHZ # New GA4 property
+
+gravatar_hash: 00294f38ac840d7ac9a1d3026f8f84b5
+code_block_max_height: 500px
+
+home_post_limit: 5
+
+# The github repo that is to be used for looking up comments
+comments_repo: ikzer/ikzer.github.io
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://s.gravatar.com/avatar/2136e716a089f4a3794f4007328c7bfb?s=800 # Apply default site image
+  - scope:
+      path: ""
+      type: posts
+    values:
+      tags:
+        - Other # Add a default tag to all posts
+
+# Disable highlighting to use highlightJS instead
+# highlighter: none # Not supported by GitHub Pages
+kramdown:
+  syntax_highlighter_opts:
+    disable: true

@@ -1,0 +1,8 @@
+_site
+Gemfile
+Gemfile.lock
+.jekyll-metadata
+*.code-workspace
+books.md
+_includes/resume.html
+/javascripts
