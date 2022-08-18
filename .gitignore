@@ -6,5 +6,4 @@ Gemfile.lock
 books.md
 _includes/resume.html
 
-# Temporary disable of refresh action
-.github/workflows/refresh.yml
+_posts/planning.yml
