@@ -1,5 +1,3 @@
-# Ikzer Dev Blog
-
 Web developer trying all kind of things.
 
 I go as Ikzer on the web since my teenage years and now it's too late to change that.
