@@ -5,7 +5,7 @@ author: Fernando Delgado
 email: ikzer3@gmail.com
 #url: https://ferdlg.com
 
-timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
+timezone: Europe/Madrid # GitHub uses UTC. This is to force dev environment to match
 future: false # GitHub Pages will publish future posts if this isn't set to false
 
 description: >
@@ -19,11 +19,11 @@ linkedin_username: fernando.delgadorivero
 #youtube_username: ikz3r
 rss: rss
 
-show_excerpts: false
+show_excerpts: true
 
 # Used by simple links page
 social-links:
-  Resume:        https://chadbaldwin.net/resume
+  Resume:        https://ferdlg.com
   LinkedIn:      https://linkedin.com/in/fernando.delgadorivero
   StackOverflow: https://stackoverflow.com/users/1275806/ikzer
   GitHub:        https://github.com/ikzer
