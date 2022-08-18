@@ -8,7 +8,7 @@ Various online tools, databases, references, cheatsheets, etc, that I've found o
 {% for category in site.data.bookmarks %}
 {% assign items = category[1] | sort_natural: "name" %}
 
-### {{ category[0] | capitalize }}
+### {{ category[0] | capitalize }}:
 
 {% for item in items %}
 

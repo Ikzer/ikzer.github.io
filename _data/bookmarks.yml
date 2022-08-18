@@ -1,0 +1,13 @@
+code sharing / collaboration:
+  - name: Board
+    description: "Online Whiteboard, alternative link: <https://board.new>"
+    link: https://letsboard.co
+
+  - name: PasteBin
+    description: Share text
+    link: https://pastebin.com
+
+reference:
+  - name: HTTP Cats
+    description: Database of HTTP Status Codes with cats
+    link: https://http.cat/

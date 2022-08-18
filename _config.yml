@@ -56,7 +56,8 @@ header_pages:
   #- resume.html
   - archive.html
   - books.md
-  #- bookmarks.md
+  - bookmarks.md
+  - link.html
 
 plugins:
   - jekyll-feed
