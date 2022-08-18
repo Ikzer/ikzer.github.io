@@ -15,18 +15,16 @@ This first part is for the projects that have some work done, maybe are in a som
 ## Table of Contents
 
 1. [Table of Contents](#table-of-contents)
-2. [11. Summary](#11-summary)
-3. [Ikzer.github.io](#ikzergithubio)
-4. [Manga List](#manga-list)
-5. [Clicker](#clicker)
-6. [Art Frontend](#art-frontend)
-7. [Mangalist](#mangalist)
-8. [Spacemap](#spacemap)
-9. [Jav Display](#jav-display)
-10. [LoT Map](#lot-map)
-11. [Compras](#compras)
-12. [Summary](#summary)
----
+2. [Ikzer.github.io](#ikzergithubio)
+3. [Manga List](#manga-list)
+4. [Clicker](#clicker)
+5. [Art Frontend](#art-frontend)
+6. [Mangalist](#mangalist)
+7. [Spacemap](#spacemap)
+8. [Jav Display](#jav-display)
+9. [LoT Map](#lot-map)
+10. [Compras](#compras)
+11. [Summary](#summary)
 
 ## Ikzer.github.io
 ![v1.0.0](https://img.shields.io/badge/version-1.0.0-green "version 1.0.0")
