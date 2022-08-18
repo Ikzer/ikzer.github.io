@@ -11,15 +11,13 @@ Mainly this are simple arcade games, with basic mechanics but that establish som
 
 The more significant games I want to cover are:
 
-- Pong
-- Space Invaders
-- Speed Race/Night Driver/Fonz (racing)
-- Breakout (brickle destroy)
-- Star Raiders (first person space shooter)
-- MUD (this can be fun)
-- Flight Simulator
-- Empire (the first map conquer game)
-- Lunar Lander
-- Tank
+- Asteroids
+- Baseball
+- Demon Attack
+- Donkey Kong
+- Missile Command
+- Pitfall!
+- Utopia
+- Zaxxon
 
 It's a lot but well, here are most of the most basic mechanics that everything after have repeated. I plan to do this in about four months, perhaps before end of the year. Now on to the next generation!
