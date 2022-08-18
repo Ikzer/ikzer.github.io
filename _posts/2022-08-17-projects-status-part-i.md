@@ -15,7 +15,7 @@ This first part is for the projects that have some work done, maybe are in a som
 ## Table of Contents
 
 1. [Table of Contents](#table-of-contents)
-2. [10. Compras](#10-compras)
+2. [11. Summary](#11-summary)
 3. [Ikzer.github.io](#ikzergithubio)
 4. [Manga List](#manga-list)
 5. [Clicker](#clicker)
