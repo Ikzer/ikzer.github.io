@@ -12,15 +12,15 @@ Mainly this era's games are simple arcades, with basic mechanics but are the one
 The more significant games I want to cover are:
 
 - Pong
-- Space Invaders
+- Breakout
 - Snake
+- Tetris
+- Space Invaders
 - Asteroids
 - Arkanoid
-- Speed Race/Night Driver/Fonz (racing)
-- Breakout (brickle destroy)
+- Speed Race
 - Star Raiders (first person space shooter)
 - MUD (this can be fun)
-- Tetris
 - Columns
 - Pacman
 

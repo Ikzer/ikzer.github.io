@@ -2,7 +2,7 @@
 layout: post
 title: "Javascript Games Tutorials Project Part III: The Modern Genres"
 description: "This third part will cover the first quarter of 2023, with more classics in the making."
-date: 2022-08-19 18:30:00 -0000
+date: 2022-08-19 16:30:00 -0000
 tag: Projects
 ---
 After the first basic arcade games it's time to explore modern genres. These games are much more complex so this will take more time but if everything goes as expected they shouldn't be too difficult, just time consuming.
