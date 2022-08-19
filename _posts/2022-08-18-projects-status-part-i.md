@@ -4,6 +4,7 @@ title: "Projects Status Part I: Current"
 description: Status of all the current projects.
 date: 2022-08-17 17:30:00 -0000
 tag: Projects
+serie: Project Status
 ---
 The point of this blog is to have a status of all my current and future projects. And here is the first part: the projects I have started until now.
 

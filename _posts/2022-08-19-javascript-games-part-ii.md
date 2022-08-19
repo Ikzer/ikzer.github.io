@@ -4,6 +4,7 @@ title: "Javascript Games Tutorials Project Part II: The First Generation Arcade 
 description: "The second part series covers the games planned for the rest of the year 2022."
 date: 2022-08-19 14:30:00 -0000
 tag: Projects
+serie: JavaScript Games Tutorials Project
 ---
 The so-called first generation of consoles were on sale between 1972 and 1980 and included the Magnavox Odyssey, Telstar, Home Pong and Color TV-Game, and before that there were some arcade games that became very famous and are iconic.
 

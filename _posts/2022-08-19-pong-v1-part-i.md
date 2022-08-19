@@ -4,7 +4,7 @@ title: "Pong V1 Part I: Introduction"
 description: "The first of all, the classic Pong, starts here."
 date: 2022-08-19 18:30:00 -0000
 tag: JavaScript GameDev
-serie: Pong
+serie: Pong V1
 ---
 ![Pong](../images/pong1.png) 
 

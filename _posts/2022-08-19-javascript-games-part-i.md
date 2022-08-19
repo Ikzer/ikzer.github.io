@@ -4,6 +4,7 @@ title: "Javascript Games Tutorials Project Part I: Introduction"
 description: "The first part of this presentation series of posts will introduce the concept, the why I'm doing this and the scope."
 date: 2022-08-19 10:30:00 -0000
 tag: Projects
+serie: JavaScript Games Tutorials Project
 ---
 One of the main ideas behind this blog is to talk about game development. But starting with the very basics. There are various goals to achieve but mainly two: study current technologies to develop games and study the mechanics and algorithms of videogames.
 

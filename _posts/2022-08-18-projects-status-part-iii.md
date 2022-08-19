@@ -4,6 +4,7 @@ title: "Projects Status Part III: Future"
 description: "Second part of the projects status: the stalled projects that I started but never worked much on."
 date: 2022-08-18 19:45:00 -0000
 tag: Projects
+serie: Project Status
 ---
 The second kind of projects are the ones that are somehow planned, maybe repo created, but never worked beyond that. There are quite a few of these, and most of them will be merged on more recent ones or discarded in the following month.
 
