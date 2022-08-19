@@ -1,0 +1,19 @@
+---
+layout: page
+title: Posts Series
+---
+
+<a href="/archive-date.html">Sort by date</a> | <a href="/archive.html">Sort by category</a>
+
+{%- assign allposts = site.posts | concat: site.personal | sort_natural: "date" | reverse %}
+
+{%- assign postsBySerie = allposts | group_by_exp:"allposts", "allposts.serie"  %}
+
+{%- for serie in postsBySerie %}
+<h3>{{ serie.name }}</h3>
+<ul>
+  {%- for post in serie.items %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {%- endfor %}
+</ul>
+{%- endfor %}
