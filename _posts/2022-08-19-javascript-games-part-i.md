@@ -9,8 +9,10 @@ One of the main ideas behind this blog is to talk about game development. But st
 
 To do that I will follow some simple rules, to limit the scope: I'm NOT going to try to imitate big AAA games and I will try to use pure web technologies to do this. Meaning no React, no Angular, nor Phaser or other gamedev frameworks. Pure JS (maybe jQuery for simplicity) and HTML.
 
-And regarding what this will cover let's say we will go through a history of videogames course. The "generations of videogames consoles" is a concept I hate and love at the same time, but I will use it as a guide. From the early stages, when there weren't consoles or anything publicly available, to the latest PS5 and beyond! Let's make a Horizo... Nope. Let's keep it simple. Every generation are games that defines the eras: new mechanics, genres, designs, that kind of things is what I want to cover. And to build on what we make before.
+And regarding what this will cover let's say we will go through the history of videogames. Starting with the most basic arcade games like Pong and Tetris, evolving into more complex genres like platforms or RPGs and into modern mobile or online multiplayer games. But let's go step by step.
+
+Let's start simple. Every generation have games that defines them: new mechanics, genres, designs, that kind of things is what I want to cover. And to build on what we make before.
 
 So that's the approach: generation defining mechanics and games to see if we can put them on a browser. And if we can't, we go to Unity to continue, why not?
 
-Let's start with those old school arcade games!
+In the next post we will start with those old school arcade games. Let's go!
