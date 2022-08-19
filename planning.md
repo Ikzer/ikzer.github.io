@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blog Planning
+description: Next posts and series to be created.
 ---
 # Future Posts
 
