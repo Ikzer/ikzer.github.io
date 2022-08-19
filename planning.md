@@ -10,11 +10,12 @@ I actually have all of these almost ready to post, but I don't want to waste the
 This isn't set in stone tho, but it's pretty accurate on how I want to post them for now.
 
 ---
-### August
+
+## August
 
 | Date | Time | Post | Series | Part |
 |------|------|------|--------|------|
-| **2022/08/20** | **10:30** | **Snake V1 Part II: The Snake** | **Snake** | **2**
+| _2022/08/20_ | _10:30_ | _Snake V1 Part II: The Snake_ | _Snake_ | _2_
 | 2022/08/20 | 14:30 | _???_
 | 2022/08/20 | 18:30 | Snake V1 Part III: The Game | Snake | 3
 | 2022/08/21 | 10:30 | _???_
@@ -26,7 +27,7 @@ This isn't set in stone tho, but it's pretty accurate on how I want to post them
 | 2022/08/23 | 10:30 | _???_
 | 2022/08/23 | 14:30 | Breakout V1 Part II: The Ball | Breakout | 2
 | 2022/08/23 | 18:30 | _???_
-| ***2022/08/24*** | ***10:30*** | ***Pong V1 Part I: Introduction*** | ***Pong*** | ***1***
+| _2022/08/24_ | _10:30_ | _Pong V1 Part I: Introduction_ | _Pong_ | _1_
 | 2022/08/24 | 14:30 | _???_
 | 2022/08/24 | 18:30 | FSM Part II: Basic Machine | FSM | 2
 | 2022/08/25 | 10:30 | _???_
@@ -52,7 +53,8 @@ This isn't set in stone tho, but it's pretty accurate on how I want to post them
 | 2022/08/31 | 18:30 | _???_
 
 ---
-### September
+
+## September
 
 | Date | Time | Post | Series | Part |
 |------|------|------|--------|------|
