@@ -1,13 +1,7 @@
-Blog made with Jekyll. following [@chadbaldwin](https://chadbaldwin.net/2021/03/14/how-to-build-a-sql-blog.html)'s great guide. 
-
-It has basic posts, comments (yet untested for now) and a bookmarks page. I'll add more things as needed, but for now that's it.
-
-![Posts](https://img.shields.io/badge/Posts-7-green "7 Posts")
-![Future Posts](https://img.shields.io/badge/Future_Posts-18-blue "18 Posts")
-![Secret Posts](https://img.shields.io/badge/Secret_Posts-18-red "18 Posts") 
-
 ---
-
+layout: page
+title: Blog Planning
+---
 # Future Posts
 
 I actually have all of these almost ready to post, but I don't want to waste them in a single day so I will polish them and publish them one at a time. The _???_ are posts that are almost finished but I don't want to unveil yet.
