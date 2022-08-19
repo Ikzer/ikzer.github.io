@@ -15,9 +15,9 @@ I actually have all of these almost ready to post, but I don't want to waste the
 |------|------|------|--------|------|
 | 2022/08/19 | 18:30 | Pong V1 Part I: Introduction | Pong | 1
 | 2022/08/20 | 10:30 | Pong V1 Part II: The Game Runner | Pong | 2
-| 2022/08/20 | 14:30 | 
+| 2022/08/20 | 14:30 | _???_
 | 2022/08/20 | 18:30 | Breakout V1 Part I: Introduction | Breakout | 1
-| 2022/08/21 | 10:30 | 
+| 2022/08/21 | 10:30 | _???_
 | 2022/08/21 | 14:30 | Game Runner Part I: Minimal framework for JavaScript Games | Game Runner | 1
 | 2022/08/21 | 18:30 | _???_
 | 2022/08/22 | 10:30 | Finite State Machines Part I: Managing Game States in Javascript | FSM | 1
