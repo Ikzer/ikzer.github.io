@@ -7,18 +7,20 @@ description: Next posts and series to be created.
 
 I actually have all of these almost ready to post, but I don't want to waste them in a single day so I will polish them and publish them one at a time. The _???_ are posts that are almost finished but I don't want to unveil yet.
 
+This isn't set in stone tho, but it's pretty accurate on how I want to post them for now.
+
 ---
 ### August
 
 | Date | Time | Post | Series | Part |
 |------|------|------|--------|------|
-| 2022/08/20 | 10:30 | Snake V1 Part II: The Snake | Snake | 2
+| **2022/08/20** | **10:30** | **Snake V1 Part II: The Snake** | **Snake** | **2**
 | 2022/08/20 | 14:30 | _???_
 | 2022/08/20 | 18:30 | Snake V1 Part III: The Game | Snake | 3
 | 2022/08/21 | 10:30 | _???_
-| 2022/08/21 | 14:30 | Breakout V1 Part I: Introduction | Breakout | 1
+| 2022/08/21 | 14:30 | Game Runner Part I: Minimal framework for JavaScript Games | Game Runner | 1
 | 2022/08/21 | 18:30 | _???_
-| 2022/08/22 | 10:30 | Game Runner Part I: Minimal framework for JavaScript Games | Game Runner | 1
+| 2022/08/22 | 10:30 | Breakout V1 Part I: Introduction | Breakout | 1
 | 2022/08/22 | 14:30 | _???_
 | 2022/08/22 | 18:30 | Finite State Machines Part I: Managing Game States in Javascript | FSM | 1
 | 2022/08/23 | 10:30 | _???_
