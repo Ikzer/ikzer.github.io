@@ -9,7 +9,9 @@ serie: Project Status
 The second kind of projects are the ones that are somehow planned, maybe repo created, but never worked beyond that. There are quite a few of these, and most of them will be merged on more recent ones or discarded in the following month.
 
 ---
+
 ## Table of Contents
+
 1. [Table of Contents](#table-of-contents)
 2. [Comics Reading Lists](#comics-reading-lists)
 3. [TTRPG Logsheets](#ttrpg-logsheets)
@@ -19,7 +21,7 @@ The second kind of projects are the ones that are somehow planned, maybe repo cr
 
 ## Comics Reading Lists
 
-Inspired by _[Marvel Guides](marvelguides.com)_ and _[Comic Book Herald](https://www.comicbookherald.com/the-complete-marvel-reading-order-guide/)_ I want to create a site that can serve both as a storyline guide as well as a buying guide. The first one only shows the single issues ordered by themed arcs, not actually storylines, which is something that I want to keep but expand, and the second one is more like a blog with a list. I want an interactive list that can be seen as single-issue stories or as TPBs with links to buy them online. 
+Inspired by _[Marvel Guides](marvelguides.com)_ and _[Comic Book Herald](https://www.comicbookherald.com/the-complete-marvel-reading-order-guide/)_ I want to create a site that can serve both as a storyline guide as well as a buying guide. The first one only shows the single issues ordered by themed arcs, not actually storylines, which is something that I want to keep but expand, and the second one is more like a blog with a list. I want an interactive list that can be seen as single-issue stories or as TPBs with links to buy them online.
 
 The idea is that we have a database of issues and TPBs, and we can add them to ordered "reading guides". All extra information about the comics could be retrieved from APIs or extending our own API in the future.
 
@@ -27,7 +29,7 @@ Tl;Dr: Single-issue and TPBs reading guides thematically sorted.
 
 ## TTRPG Logsheets
 
-As a Dungeon Master or Narrator I want a place where I store my session logsheets and campagin tracking. Simple as that. Nothign fancy like _[WorldAnvil](worldanvil.com)_, just simple logsheets customized per game. 
+As a Dungeon Master or Narrator I want a place where I store my session logsheets and campagin tracking. Simple as that. Nothign fancy like _[WorldAnvil](worldanvil.com)_, just simple logsheets customized per game.
 
 Maybe a NoSQL database with non-schematic documents or something like that would help.
 

@@ -10,6 +10,7 @@ I enjoy writing and sharing; it's been a long time since the last time, let's ho
 I'll try to make the posts accesible, but I don't know how well that's going to be. Most of them will be pretty technical, not very deep at the beginning tho.
 
 Just to name a few of my interests besides coding...
+
 * Comics/Series/Movies
 * Art/Illustration
 * Music

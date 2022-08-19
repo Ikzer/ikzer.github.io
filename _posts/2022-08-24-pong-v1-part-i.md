@@ -6,7 +6,7 @@ date: 2022-08-24 10:30:00 -0000
 tag: JavaScript GameDev
 serie: Pong V1
 ---
-![Pong](/images/pong1.png) 
+![Pong](/images/pong1.png)
 
 Pong is a classic. Pong is the beginning. And Pong is addictive. But I actually played Pong quite late to be honest. My first games were actually on a SNES, and until I got a GameBoy I didn't enjoy joys (heh) like Pong or Snake.
 
