@@ -17,15 +17,15 @@ I have and abandoned Patreon and a Twitter art account that I plan to revive. I 
 As with everything, I started to get on top. So right now I have *five* comic projects. I don't plan to make a big deal of them so I'm taking this sloooowly. Nonetheless I want to go with this.
 This is the status of each one.
 
-- [Code](#code)
-- [Art](#art)
-  - [Patreon](#patreon)
-  - [DnD 4-strips](#dnd-4-strips)
-  - [Kuga](#kuga)
-  - [PBP](#pbp)
-  - [SD](#sd)
-  - [OmniVerses](#omniverses)
-- [Conclusion](#conclusion)
+1. [Code](#code)
+2. [Art](#art)
+   1. [Patreon](#patreon)
+   2. [DnD 4-strips](#dnd-4-strips)
+   3. [Kuga](#kuga)
+   4. [PBP](#pbp)
+   5. [SD](#sd)
+   6. [OmniVerses](#omniverses)
+3. [Conclusion](#conclusion)
 
 ## Patreon
 
@@ -50,7 +50,7 @@ The last four years I DM'd a long campaign of Dungeon and Dragons with a group o
 The format will be classic 24 page full color comic-books.
 
 | Issue | Pages | Story | Script | Storyboard | Draft | Ink | Color | Render |
-|-------|-------|-------|--------|-------|-----|-------|--------|
+|-------|-------|-------|--------|-------|-----|-------|--------|----|
 | 1 | 24 | 100% | 10 | 0 | 0 | 0 | 0 |
 | 2 | 24 | 100% | 0 | 0 | 0 | 0 | 0 |
 | 3 | 24 | 50% | 0 | 0 | 0 | 0 | 0 |
