@@ -13,49 +13,48 @@ This isn't set in stone tho, but it's pretty accurate on how I want to post them
 
 ## August
 
-| Date | Time | Post | Series | Part |
-|------|------|------|--------|------|
-| _2022/08/20_ | _10:30_ | _Snake V1 Part II: The Snake_ | _Snake_ | _2_
-| 2022/08/20 | 14:30 | _???_
-| 2022/08/20 | 18:30 | Snake V1 Part III: The Game | Snake | 3
-| 2022/08/21 | 10:30 | _???_
-| 2022/08/21 | 14:30 | Game Runner Part I: Minimal framework for JavaScript Games | Game Runner | 1
-| 2022/08/21 | 18:30 | _???_
-| 2022/08/22 | 10:30 | Breakout V1 Part I: Introduction | Breakout | 1
-| 2022/08/22 | 14:30 | _???_
-| 2022/08/22 | 18:30 | Finite State Machines Part I: Managing Game States in Javascript | FSM | 1
-| 2022/08/23 | 10:30 | _???_
-| 2022/08/23 | 14:30 | Breakout V1 Part II: The Ball | Breakout | 2
-| 2022/08/23 | 18:30 | _???_
-| _2022/08/24_ | _10:30_ | _Pong V1 Part I: Introduction_ | _Pong_ | _1_
-| 2022/08/24 | 14:30 | _???_
-| 2022/08/24 | 18:30 | FSM Part II: Basic Machine | FSM | 2
-| 2022/08/25 | 10:30 | _???_
-| 2022/08/25 | 14:30 | Game Runner Part II: Basic Functions | Game Runner | 2
-| 2022/08/25 | 18:30 | _???_
-| 2022/08/26 | 10:30 | Breakout V1 Part III: The Bricks | Breakout | 3
-| 2022/08/26 | 14:30 | _???_
-| 2022/08/26 | 18:30 | Pong V1 Part II: The Game Runner | Pong | 2
-| 2022/08/27 | 10:30 | _???_
-| 2022/08/27 | 14:30 | Game Runner Part III: The Loop | Game Runner | 3
-| 2022/08/27 | 18:30 | _???_
-| 2022/08/28 | 10:30 | FSM Part III: Multiple Endpoints | FSM | 3
-| 2022/08/28 | 14:30 | _???_
-| 2022/08/28 | 18:30 | Pong V1 Part III: The Game Loop | Pong | 3
-| 2022/08/29 | 10:30 | _???_
-| 2022/08/29 | 14:30 | Game Runner Part IV: Double Buffer | Game Runner | 4
-| 2022/08/29 | 18:30 | _???_
-| 2022/08/30 | 10:30 | Tetris V1 Part I: Introduction | Tetris | 1
-| 2022/08/30 | 14:30 | _???_
-| 2022/08/30 | 18:30 | Pong V1 Part IV: Collisions | Pong | 4
-| 2022/08/31 | 10:30 | _???_
-| 2022/08/31 | 14:30 | _???_
-| 2022/08/31 | 18:30 | _???_
+| Post | Series | Part |
+|------|--------|------|
+_Manga List design and requirements_ | Manga List | 1
+_Snake V1 Part III: The Game_ | Snake | 3
+_ML: Installing and starting a NextJS project_ | Manga List | 2
+_Game Runner Part I: Minimal framework for JavaScript Games_ | Game Runner | 1
+_CivClicker Design_ | CivClicker | 1
+_Breakout V1 Part I: Introduction_ | Breakout | 1
+_Art Frontend Design_ | Art Frontend | 1
+_Finite State Machines Part I: Managing Game States in Javascript_ | FSM | 1
+_???_
+Breakout V1 Part II: The Ball | Breakout | 2
+_???_
+_Pong V1 Part I: Introduction_ | _Pong_ | _1_
+_???_
+FSM Part II: Basic Machine | FSM | 2
+_???_
+Game Runner Part II: Basic Functions | Game Runner | 2
+_???_
+Breakout V1 Part III: The Bricks | Breakout | 3
+_???_
+Pong V1 Part II: The Game Runner | Pong | 2
+_???_
+Game Runner Part III: The Loop | Game Runner | 3
+_???_
+FSM Part III: Multiple Endpoints | FSM | 3
+_???_
+Pong V1 Part III: The Game Loop | Pong | 3
+_???_
+Game Runner Part IV: Double Buffer | Game Runner | 4
+_???_
+Tetris V1 Part I: Introduction | Tetris | 1
+_???_
+Pong V1 Part IV: Collisions | Pong | 4
+_???_
+_???_
+_???_
 
 ---
 
 ## September
 
-| Date | Time | Post | Series | Part |
-|------|------|------|--------|------|
-| 2022/09/01 | 10:30 | Pong V1 Part V: AI | Pong | 5
+| Post | Series | Part |
+|------|--------|------|
+Pong V1 Part V: AI | Pong | 5
