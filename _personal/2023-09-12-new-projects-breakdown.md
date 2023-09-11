@@ -2,7 +2,7 @@
 layout: post
 title: New Projects Breakdown
 description: Besides code and work, I have a few other side projects I'm working on, so here they are.
-date: 2023-09-12 08:30:00 -0000
+date: 2023-09-12 00:30:00 -0000
 tag: Blog
 ---
 Besides code and work, I have a few other side projects I'm working on. I've mentioned I do art and illustration for example. I used to play the bass a few years ago. I do a lot of stuff. Let's breakdown everything and see where is everything and try to keep up and track it from now.
