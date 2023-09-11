@@ -2,7 +2,7 @@
 layout: post
 title: "Pong V1 Part I: Introduction"
 description: "The first of all, the classic Pong, starts here."
-date: 2022-08-24 10:30:00 -0000
+date: 2023-09-19 10:30:00 -0000
 tag: JavaScript GameDev
 serie: Pong V1
 ---
