@@ -60,9 +60,11 @@ $(document).ready(function(){
 });
 ```
 
-La línea 1 es la inicialización de JQuery para ejecutarse cuando el documento esté listo para mostrarse, así no hay que llamarlo desde ningún sitio. En la línea 3 guardamos el canvas en una variable, sin más.
+Line 1 is JQuery initialization, to execute the code when the document is ready to show, thus not having to call it anywhere else. In line 3 we just store the canvas in a variable.
 
-En la línea 4 ya hay algo interesante: el contexto. El método getContext() devuelve un objeto que provee de métodos y propiedades para dibujar en el canvas. El canvas en sí es eso: un lienzo, y se necesita obtener las herramientas para trabajar en él. Como argumento necesita el contexto que se solicita: en nuestro caso «2d«. ¿Significa esto que hay un contexto «3d»? Aún no como tal, pero existe el contexto «webgl» que permite trabajar con las APIs de WebGL y por tanto OpenGL-ES 2.0, pero eso se va mucho del objetivo actual.
+The first interesting thing comes in line 4: the context. The getContext() method returns an object that provides methods and attributes to draw in the canvas. The canvas itself is that: a canvas, and we need to obtain the tools to work on it. As an argument it needs the context we are requiring: in our case is «2d«. Does this mean we have a "3d" context? Not yet, but there is the "webgl" context that let us work with WebGL APIs, and therefore OpenGL-ES 2.0, but that's for another moment.
+
+
 
 El contexto provee de muchos métodos, tanto para obtener información de lo que hay en el interior del canvas, como para dibujar en él. En las línes 5 y 6 guardamos las dimensiones del canvas para tenerlas más accesibles. En las líneas 9 y 10 dibujamos el rectángulo que contendrá el juego. Con fillStyle podemos tanto obtener como definir el estilo (color, degradado o patrón) con el que está o estará rellenado el canvas y con fillRect() realizamos el relleno de un rectángulo con lo que hayamos definido en fillStyle, pasándole como argumentos las coordenadas de la esquina superior izquierda (x,y) y las dimensiones que tendrá (w, h). En las siguientes dos líneas hacemos lo mismo, pero esta vez con strokeStyle y strokeRect(), que en lugar del relleno definen el color de los bordes.
 

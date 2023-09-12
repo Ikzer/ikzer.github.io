@@ -20,6 +20,11 @@ code:
   - name: HackerEarth
     link: https://pastebin.com
 
+  - name: Codedex
+    link: https://www.codedex.io/
+    current: HTML
+    currenturl: https://www.codedex.io/html
+    currentprogress: 11
 
 ML:
   - name: Kaggle

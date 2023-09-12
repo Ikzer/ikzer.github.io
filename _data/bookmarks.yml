@@ -1,3 +1,8 @@
+blogging/writing:
+  - name: HashNode
+    description: Dev Weblog.
+    link: https://ikzer.hashnode.com/
+
 code sharing / collaboration:
   - name: Board
     description: "Online Whiteboard, alternative link: <https://board.new>"
@@ -6,6 +11,12 @@ code sharing / collaboration:
   - name: PasteBin
     description: Share text
     link: https://pastebin.com
+
+gamedev:
+
+  - name: Twine
+    description: Narrative games generator
+    link: https://twinery.org/
 
 reference:
   - name: HTTP Cats
