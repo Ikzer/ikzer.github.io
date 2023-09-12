@@ -7,30 +7,30 @@ tag: Blog
 ---
 Besides code and work, I have a few other side projects I'm working on. I've mentioned I do art and illustration for example. I used to play the bass a few years ago. I do a lot of stuff. Let's breakdown everything and see where is everything and try to keep up and track it from now.
 
+1. [Code](#code)
+2. [YouTube](#youtube)
+3. [Art](#art)
+   1. [Patreon](#patreon)
+   2. [DnD 4-strips](#dnd-4-strips)
+   3. [Kuga](#kuga)
+   4. [PBP](#pbp)
+   5. [SD](#sd)
+   6. [OmniVerses](#omniverses)
+4. [Conclusion](#conclusion)
+
 # Code
 
-I made series about my [code projects here](/2022-08-18-projects-status-part-i) so not much to say about that. I'm focusing mainly on the Manga List project and the [JavaScript game development](/2022-08-19-javascript-games-part-i) journey. That would be the easiest things to track here.
+I made series about my [code projects here](/2022/08/18/projects-status-part-i) so not much to say about that. I'm focusing mainly on the Manga List project and the [JavaScript game development](/2022/08/19/javascript-games-part-i) journey. That would be the easiest things to track here.
 
 # YouTube
 
-I started a YouTube channel about my biggest passion: manga. Is in Spanish and ther I talk about things I read, things I like, and, more importantly, things I buy. I'll make [~~a post about it~~](/2023-09-19-youtube-planning) soon.
+I started a YouTube channel about my biggest passion: manga. Is in Spanish and ther I talk about things I read, things I like, and, more importantly, things I buy. I'll make [~~a post about it~~](/2023/09/19/youtube-planning) soon.
 
 # Art
 
 I have an abandoned Patreon and a Twitter art account that I plan to revive. I started a few series of fanarts that I want to continue, or that I had planned but not continued, but that will have to wait for the time being because I have new interests: comics. I read comics and manga, lots of them, since more than 20 years ago. And now that I make my own art I started planning my own comic projects.
 As with everything, I started to get on top. So right now I have *five* comic projects. I don't plan to make a big deal of them so I'm taking this sloooowly. Nonetheless I want to go with this.
 This is the status of each one.
-
-- [Code](#code)
-- [YouTube](#youtube)
-- [Art](#art)
-  - [Patreon](#patreon)
-  - [DnD 4-strips](#dnd-4-strips)
-  - [Kuga](#kuga)
-  - [PBP](#pbp)
-  - [SD](#sd)
-  - [OmniVerses](#omniverses)
-- [Conclusion](#conclusion)
 
 ## Patreon
 

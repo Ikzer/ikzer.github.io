@@ -1,32 +1,26 @@
 code:
   - name: Leet Code
-    description: "Online Whiteboard, alternative link: <https://board.new>"
     link: https://leetcode.com/
     current: SQL 50
     currenturl: https://leetcode.com/studyplan/top-sql-50/
     currentprogress: 12
 
   - name: HackerRank
-    description: Share text
     link: https://www.hackerrank.com/
     current: 3 Months Preparation Kit
     currenturl: https://www.hackerrank.com/interview/preparation-kits/three-month-preparation-kit/three-month-week-one/challenges
     currentprogress: 1
   
   - name: CodeChef
-    description: Share text
     link: https://pastebin.com
 
   - name: Code Forces
-    description: Share text
     link: https://pastebin.com
     
   - name: HackerEarth
-    description: Share text
     link: https://pastebin.com
 
 
 ML:
   - name: Kaggle
-    description: Share text
     link: https://pastebin.com

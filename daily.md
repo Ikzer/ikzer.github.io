@@ -14,7 +14,9 @@ Here are the pages where I'm enrolled to complete tasks daily:
 
 * [{{ item.name }}]({{ item.link }}){:target="_blank"}
 
+  {% if item.description %}
   * {{ item.description }}
+  {% endif %}
   {% if item.current %}
   * [{{ item.current }}]({{ item.currenurl }}){:target="_blank"} ![Progress](https://progress-bar.dev/{{ item.currentprogress }}/)
   {% endif %}
