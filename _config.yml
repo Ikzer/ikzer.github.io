@@ -59,6 +59,7 @@ header_pages:
   - planning.md
   - books.md
   - bookmarks.md
+  - daily.md
   - link.html
 
 plugins:
