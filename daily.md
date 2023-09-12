@@ -15,10 +15,10 @@ Here are the pages where I'm enrolled to complete tasks daily:
 * [{{ item.name }}]({{ item.link }}){:target="_blank"}
 
   * {{ item.description }}
-  {{% if item.current %}}
+  {% if item.current %}
   * [{{ item.current }}]({{ item.currenurl }}){:target="_blank"} ![Progress](https://progress-bar.dev/{{ item.currentprogress }}/)
   {% endif %}
-  
+
 {% endfor %}
 {% endfor %}
 
