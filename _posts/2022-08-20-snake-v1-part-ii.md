@@ -219,4 +219,4 @@ With this we're almost done. Next time we will make the fun part, with the eatin
 
 1. [Introduction](https://ikzer.github.io/2022/08/19/snake-v1-part-i.html)
 2. **The Snake**
-3. The Game
+3. [The Game](https://ikzer.github.io/2022/08/25/snake-v1-part-iii.html)

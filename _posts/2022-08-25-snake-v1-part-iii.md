@@ -63,8 +63,7 @@ And we add this collision condition to the ones we already had:
 
  ## Restart the Game
 
-The problem is that we have 
- El problema es que no tenemos una manera de reiniciar el juego aún: hasta ahora simplemente funcionaba siempre en las mismas condiciones. Para ello creamos la función init(), a la que llamamos en el momento de reiniciar:
+The problem is that we have yet a way to restart the game: until now it just worked in the same conditions. To do this we create the `init()` function that we will call when we restart:
 
  ```
  function init()
@@ -133,18 +132,134 @@ function paint() {
 }
 ```
 
-Now to paint the food we need to do more things. First we create a global variable (`var food()`) to contain it. The we create a call to `create_food()` on `init()` to create a cell on start, and finally a call to `paint_cell()` on `paint()` with the fields of the newly created variable to paint it:
+Now to paint the food we need to do more things. First we create a global variable (`var food()`) to contain it. Then we create a call to `create_food()` on `init()` to create a cell on start, and finally a call to `paint_cell()` on `paint()` with the fields of the newly created variable to paint it:
 
 ```
 function init()
  {
- d = "right"; // Dirección del movimiento, por defecto a la derecha
+ d = "right"; // Direction of the movement, to the right by default
  create_snake(); //Create the snake
  create_food();
  
- // Para mover la serpiente utilizamos un timer que llamará
- // a la función paint() cada 60ms
+ // To move the snake we create a timer that will call
+ // the paint() function every 60ms
  if(typeof game_loop != "undefined") clearInterval(game_loop);
  game_loop = setInterval(paint, 60);
  }
  ```
+
+ The `paint()` function with the call to `paint_cell()`
+
+ ```
+function paint() {
+ 
+... previous code
+ 
+// Paint the snake
+ for(var i = 0; i < snake_array.length; i++)
+ {
+ var c = snake_array[i];
+ paint_cell(c.x, c.y);
+ }
+ 
+ // Paint the food
+ paint_cell(food.x, food.y);
+ 
+... next code
+ 
+}
+```
+
+Now we need no make the snake eat the food, so we have to modify `paint()`. Before we had:
+
+```
+ var tail = snake_array.pop(); // Pop and store the tail
+ tail.x = nx; tail.y = ny; // Assign the tail the position of the head
+ snake_array.unshift(tail); // Insert the tail in the first position
+```
+
+And we change it to:
+
+```
+// If the new position of the head it's the same as the food
+// We create a new head instead of moving the tail
+ if(nx == food.x && ny == food.y)
+ {
+ var tail = {x: nx, y: ny};
+ // Create new food
+ create_food();
+ }
+ else
+ {
+ var tail = snake_array.pop(); // Pop and store the tail
+ tail.x = nx; tail.y = ny; // Assign the tail the position of the head
+ }
+ // The snake has "eaten" the new cell
+ 
+ snake_array.unshift(tail); // And now we insert the tail in the first position
+```
+
+When moving the snake, the first think that is calculated is the position of the head. This time, instead of moving it directly, we check. If it's the same as the food, instead of removing the tail and putting it to the head, we add the new cell, create a new head instead of moving the previous and, of course, create new food. This means assigning new values to tail, not making the `pop()` to remove it from the end and after that we add it to the front with `unshift()`.
+
+To finish this V1 we will show a little score text that counts the food we eat.
+
+For that we create the variable `score`:
+
+```
+var score;
+```
+
+Initialize it in `init()`:
+
+```
+function init()
+ {
+ d = "right"; // Direction of the movement, to the right by default
+ create_snake(); //Create the snake
+ create_food();
+
+ score = 0;
+ 
+ // To move the snake we create a timer that will call
+ // the paint() function every 60ms
+ if(typeof game_loop != "undefined") clearInterval(game_loop);
+ game_loop = setInterval(paint, 60);
+ }
+ ```
+ 
+We increment it when we eat:
+
+```
+// If the new position of the head it's the same as the food
+// We create a new head instead of moving the tail
+ if(nx == food.x && ny == food.y)
+ {
+ var tail = {x: nx, y: ny};
+ score++;
+
+ // Create new food
+ create_food();
+ }
+ ```
+
+And we add it to `paint()` at the end to show the score:
+
+```
+// Paint the score
+ var score_text = "Score: " + score;
+ ctx.fillText(score_text, 5, h-5);
+```
+
+With `fillText()` we paint texts on the canvas, passing as arguments a string and the x and y positions of the bottom left corner of the text to show.
+
+And that's it. With less than 150 lines of code (it can be much less if we want actually) we have a working classic. For now is ugly and don't have anything fancy what it have is the essential: a game.
+
+This first version was about gameplay. In the future we can add menus, score tables, lives, levels, bonuses, pause, game modes and lots and lots of other things. But they are just superficial ornaments built over this core gameplay we have coded now.
+
+I hope you enjoyed and learnt something useful. See you on next projects!
+
+# Index
+
+1. [Introduction](https://ikzer.github.io/2022/08/19/snake-v1-part-i.html)
+2. [The Snake](https://ikzer.github.io/2022/08/20/snake-v1-part-ii.html)
+3. **The Game**

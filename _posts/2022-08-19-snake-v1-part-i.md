@@ -33,5 +33,5 @@ We don't need anything to this simple version. Nothing more than basic JavaScrip
 So with this in mind, the series will consist of three parts:
 
 1. **Introduction**
-2. The Snake
-3. The Game
+2. [The Snake](https://ikzer.github.io/2022/08/20/snake-v1-part-ii.html)
+3. [The Game](https://ikzer.github.io/2022/08/25/snake-v1-part-iii.html)
