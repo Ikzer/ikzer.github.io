@@ -2,7 +2,7 @@
 layout: post
 title: "Snake V1 Part I: Stateless Snake Introduction"
 description: "The most simple of the games, a stateless Snake, starts here."
-date: 2022-08-19 18:30:00 -0000
+date: 2022-08-20 18:30:00 -0000
 tag: JavaScript GameDev
 serie: Snake V1
 ---
@@ -33,5 +33,5 @@ We don't need anything to this simple version. Nothing more than basic JavaScrip
 So with this in mind, the series will consist of three parts:
 
 1. **Introduction**
-2. [The Snake](https://ikzer.github.io/2022/08/20/snake-v1-part-ii.html)
-3. [The Game](https://ikzer.github.io/2022/08/25/snake-v1-part-iii.html)
+2. [The Snake](https://ikzer.github.io/2022/09/03/snake-v1-part-ii.html)
+3. [The Game](https://ikzer.github.io/2022/09/17/snake-v1-part-iii.html)

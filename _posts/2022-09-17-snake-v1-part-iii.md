@@ -2,13 +2,13 @@
 layout: post
 title: "Snake V1 Part III: The Game"
 description: "Let's finish our first minigame!"
-date: 2022-08-20 18:30:00 -0000
+date: 2022-09-17 18:30:00 -0000
 tag: JavaScript GameDev
 serie: Snake V1
 ---
 ![Snake](/images/snake1.jpg) 
 
-We left the [Snake](/2022-08-20-snake-v1-part-ii) moving freely with keyboard controls but without any type of boundaries, so we need to add some restrictions: the end of game conditions.
+We left the [Snake](/2022/09/03/snake-v1-part-ii) moving freely with keyboard controls but without any type of boundaries, so we need to add some restrictions: the end of game conditions.
 
 This is, when the snake hits the walls of the plane or with its own body, the game finishes and restart. We also have to add the gameplay elements, like the food that randomly appears and we have to "eat" in order to earn points. We will also add a little score counter to know how many cells we eat.
 
@@ -260,6 +260,6 @@ I hope you enjoyed and learnt something useful. See you on next projects!
 
 # Index
 
-1. [Introduction](https://ikzer.github.io/2022/08/19/snake-v1-part-i.html)
-2. [The Snake](https://ikzer.github.io/2022/08/20/snake-v1-part-ii.html)
+1. [Introduction](https://ikzer.github.io/2022/08/20/snake-v1-part-i.html)
+2. [The Snake](https://ikzer.github.io/2022/09/03/snake-v1-part-ii.html)
 3. **The Game**
