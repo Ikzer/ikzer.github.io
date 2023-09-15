@@ -6,13 +6,13 @@ date: 2022-10-15 18:30:00 -0000
 tag: JavaScript GameDev
 serie: Breakout V1
 ---
-<img style="float: left;" src="/images/breakoutv1-1.png">
+<img style="float: left; width: 25%;" src="/images/breakout1.png">
 
-**Breakout** is another classic among classics, it has thousands upon thousands of versions and variants in every platform ever and is great to kill some time. And it's incredibly simple: using a bar, like in Pong, and a bouncing ball, we change the direction of said bar to hit the blocks in the top, eliminating them and earning points. That's it.
+**Breakout** is another classic among classics, it has thousands upon thousands of versions and variants in every platform ever and is great to kill some time. And it's incredibly simple: using a paddle, like in Pong, and a bouncing ball, we change the direction of said paddle to hit the blocks in the top, eliminating them and earning points. That's it.
 
 ## Description
 
-We have three elements: a bar at the bottom that moves horizontally, a ball constantly bouncing in the walls and other elements, and some blocks in the upper half that get destroyed when the ball hits them. The goal of the game is eliminate all of the blocks, and the game ends if the ball touches the bottom wall below the bar before eliminating all the blocks. This time we will be able to use the mouse besides the keyboard to play.
+We have three elements: a paddle at the bottom that moves horizontally, a ball constantly bouncing in the walls and other elements, and some blocks in the upper half that get destroyed when the ball hits them. The goal of the game is eliminate all of the blocks, and the game ends if the ball touches the bottom wall below the paddle before eliminating all the blocks. This time we will be able to use the mouse besides the keyboard to play.
 
 In this first version, and like I did with Snake, we will be making only the gameplay, without any decorations.
 
@@ -92,5 +92,5 @@ With this we have initialized the project, we have a first view of the game fiel
 
 1. **Initialization**
 2. [Refactor and Movement](/2022/11/05/breakout-v1-part-ii)
-3. [The Blocks]()
+3. [The Blocks](/2022/11/19/breakout-v1-part-iii)
 4. [Finishing Touches]()

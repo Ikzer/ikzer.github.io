@@ -6,7 +6,7 @@ date: 2022-11-05 18:30:00 -0000
 tag: JavaScript GameDev
 serie: Breakout V1
 ---
-<img style="float: left;" src="/images/breakoutv1-1.png">
+<img style="float: left; width: 25%;" src="/images/breakout1.png">
 
 ## Movement
 
@@ -158,11 +158,11 @@ function paint() {
 
 ## Summary
 
-We have plenty now. We created the canvas and put a ball inside. The ball moves constantly and bounces on all four walls, being this latest the key improvement for now. Next time we will create the bottom bar, control it and the blocks.
+We have plenty now. We created the canvas and put a ball inside. The ball moves constantly and bounces on all four walls, being this latest the key improvement for now. Next time we will create the bottom paddle, control it and the blocks.
 
 ## Index
 
-1. [Initialization](2022/10/15/breakout-v1-part-i)
+1. [Initialization](/2022/10/15/breakout-v1-part-i)
 2. **Refactor and Movement**
-3. [The Blocks]()
+3. [The Blocks](/2022/11/19/breakout-v1-part-iii)
 4. [Finishing Touches]()
