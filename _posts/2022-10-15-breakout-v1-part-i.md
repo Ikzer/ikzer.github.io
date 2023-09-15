@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Breakout V1 Part I: The Ball"
+title: "Breakout V1 Part I: Initialization"
 description: "First part of a new classic minigame: breakout"
 date: 2022-10-15 18:30:00 -0000
 tag: JavaScript GameDev
@@ -57,10 +57,12 @@ var h = $("#canvas").height();
 
 In line 2 we save a step by saving the context directly, instead of having an auxiliar variable to store the canvas like in Snake. In lines 6 to 10 we simply draw the border of the canvas and paint the background white.
 
+## Circle
+
 Nows lets see some new instructions to use with canvas besides filing a square:
 
 ``````
-// Dibujar un círculo
+// Draw a circle
 ctx.beginPath();
 ctx.arc(75, 75, 10, 0, Math.PI*2, true);
 ctx.fillStyle = "black";
@@ -68,158 +70,27 @@ ctx.closePath();
 ctx.fill();
 ``````
 
-En la línea 2 vemos el método beginPath() que se encarga de inicializar una nueva forma, y closePath() en la línea 5 la termina. Las instrucciones que vayan en medio serán las que dibujen dicha forma. En nuestro caso utilizamos la forma arc() para dibujar el círculo como si se tratase de un arco o curva de radio 2*PI, o lo que viene siendo un círculo completo. arc() toma 6 argumentos: (x, y, r, sAngle, eAngle, dirección). x e y son las coordenadas del punto central del círculo, r es el radio, sAngle es el ángulo desde el que comienza a dibujarse la curva en radianes (0 es en la posición de las 3 en punto), eAngle es el ángulo final (2*PI es igual que 0) y dirección se refiere a si se dibujará en el sentido de las agujas del reloj (0 = sentido de las agujas del reloj, 1 = sentido contrario).
+In line 2 we see the `beginPath()` method that initializes a new figure, and `closePath()` on line 5 closes it. The instructions in between will be the ones that draw said figure. In our case we use `arc()` to draw a circle as an arc of 2*PI radius, whicih forms a full circle. 
 
-Luego definimos otra vez el color de relleno con fillStyle() para sobreescribir el blanco del fondo, y finalmente rellenamos con fill() para que la figura salga por pantalla. Si en lugar de fill() utilizamos el método stroke(), en lugar de un círculo relleno obtendríamos solo su contorno con el color que hayamos asignado a fillStroke() (en nuestro caso lo hemos definido como negro anteriormente).
+`arc(x, y, r, sAngle, eAngle, direction)` takes six arguments:
 
-El tema de los estilos da para mucho. A fillStyle() y fillStroke() se le puede mandar información en varios formatos. Podríamos por ejemplo pasarle información en formato hexadecimal como hace el HTML normalmente (#FFFFFF), o en rgba (red, green, blue, alpha) para darle transparencia. Eso es cosa de experimentar.
+1. `x` and `y` are the coordinates for the **center** of the circle.
+2. `r` is the **radius.
+3. `sAngle` is the angle in which the curve starts to draw in radians (0 is the 3 o`clock position).
+4. `eAngle` is the final angle (2*PI equals to 0).
+5. `direction` tells it to draw clockwise (0) or counterclockwise (1).
 
-De momento tenemos dibujada una bola estática. Vamos a moverla. Para empezar, inicializamos las variables de posición y creamos una función init() para tener un estado inicial de juego y el intervalo de actualización del dibujo que llamará a la futura función paint(), encargada de dibujar el contenido y realizar los movimientos:
+Then we define again the color of the figure with `fillStyle` y actually fill it with `fill()` so it's painted on the screen. If we use `stroke()` instead of `fill()`, instead of a full color circle we will obtain only the contour with the designated color.
 
-``````
-var x = 150;
-var y = 150;
-var dx = 2;
-var dy = 4;
-var ctx;
- 
-function init() {
- ctx = $('#canvas')[0].getContext("2d");
- return setInterval(paint, 10);
-}
-``````
+`fillStyle()` and `fillStroke()` can receive arguments in many formats. We can use named colors, or pass it hexadecimal colors like HTML (#FFFFFF), or in `rgba(red,green,blue,alpha)` format to give it transparency.
 
+## Summary
 
-Las variables x e y corresponden a la posición inicial de la bola en el cuadro, en este caso en el centro, mientras que dx y dy son las de velocidad, en ambos ejes, que dictarán cuánto se mueve la bola en cada dirección.
-
-A la función paint() le corresponde ahora pintar la bola y hacer que se mueva, para lo que tiene que redibujar todo en cada iteración:
-
-````
-function paint() {
- // Limpiamos el canvas
- ctx.clearRect(0,0,300,300);
- // Dibujar el canvas
- ctx.fillStyle = "white";
- ctx.fillRect(0, 0, w, h);
- ctx.strokeStyle = "black";
- ctx.strokeRect(0, 0, w, h);
- 
- // Dibujar el círculo
- ctx.beginPath();
- ctx.arc(x, y, 10, 0, Math.PI*2, true);
- ctx.fillStyle = "black";
- ctx.closePath();
- ctx.fill();
- x += dx;
- y += dy;
- }
- `````
- 
-Para empezar, en la línea 3 vemos la función clearRect() con la que borramos todo lo que anteriormente había en el cuadro de 300×300 (que para nosotros se corresponde con todo el canvas). A continuación, trasladamos al interior de esta función las instrucciones que utilizamos al principio para dibujar el canvas (fondo blanco y borde negro), luego trasladamos también las instrucciones para dibujar el círculo, pero esta vez en lugar de ponerle un lugar fijo como al principio, utilizamos las posiciones x e y creadas anteriormente. En init() habíamos definido un setInterval() que llamará a esta función cada 10ms, por lo que en cada intervalo se redibujará todo. Para crear el movimiento habíamos creado las variables de velocidad dx y dy así que en cada llamada cambiaremos el valor de la posición sumándole estas variables, de manera que, por ejemplo, si en la primera llamada el centro está en (150,150), en la siguiente estará en (152,154), luego en (154,158) y así sucesivamente. Así, cada vez que se dibuja el frame, la bola está en una posición distinta, creando la sensación de animación. Probar distintos valores (incluyendo negativos) en dx y dy hará que se mueva a distintas velocidades y direcciones.
-
-Vamos a necesitar repetir unas cuantas cosas constantemente a partir de ahora, por lo que poner un poco de orden en el código viene bastante bien. Crearemos funciones para las cosas más básicas: dibujar el frame, dibujar el círculo, inicializar el juego y dibujar un rectángulo, además de definir unas cuantas variables. El código completo quedaría así:
-
-Variables:
-
-``````
-var x = 150; // Posición inicial en X
-var y = 150; // Posición inicial en Y
-var dx = 2; // Velocidad en X
-var dy = 4; // Velocidad en Y
-var WIDTH; // Ancho del frame
-var HEIGHT; // Alto del frame
-var ctx;
-``````
-
-Initialize everthing:
-
-``````
-function init() {
- ctx = $('#canvas')[0].getContext("2d"); // Obtener el canvas
- WIDTH = $("#canvas").width(); // Asignar su tamaño a las variables
- HEIGHT = $("#canvas").height();
- return setInterval(paint, 10); // Llamar a paint() cada ms
-}
-``````
-
-Draw a circle:
-
-``````
-// Dibujar un círculo de centro en (x,y) y de radio r
- 
-function circle(x,y,r) {
- ctx.beginPath();
- ctx.arc(x, y, r, 0, Math.PI*2, true);
- ctx.closePath();
- ctx.fill();
-}
-``````
-
-Draw a rectangle:
-
-``````
-// Dibujar un rectángulo de ancho w, alto h, con la esquina superior izquierda en (x,y)
- 
-function rect(x,y,w,h) {
- ctx.beginPath();
- ctx.rect(x,y,w,h);
- ctx.closePath();
- ctx.fill();
-}
-``````
-
-Clean the frame:
-
-``````
-function clear() {
-// Limpiamos el canvas
- ctx.clearRect(0, 0, WIDTH, HEIGHT);</pre>
-// Dibujar el canvas
- ctx.fillStyle = "white";
- ctx.fillRect(0, 0, WIDTH, HEIGHT);
- ctx.strokeStyle = "black";
- ctx.strokeRect(0, 0, WIDTH, HEIGHT);
-}
-``````
-
-Code in action (draw and initialize):
-
-``````
-function paint() {
- clear();
- circle(x, y, 10);
- 
- x += dx;
- y += dy;
-}
- 
-init();
-``````
-
-La parte de las funciones anteriores a paint() no debería modificarse mucho (o nada) en el futuro, queda como una librería básica para ir utilizando cuando sea necesario.
-
-Bien, tenemos unas funciones definidas y una bola que se mueve en una dirección concreta y que se cae por algún sitio siempre. Nos queda contenerla dentro de los bordes del cuadro:
-
-``````
-function draw() {
- clear();
- circle(x, y, 10);
- 
- if (x + dx > WIDTH || x + dx < 0)
- dx = -dx;
- if (y + dy > HEIGHT || y + dy < 0)
- dy = -dy;
- 
- x += dx;
- y += dy;
-}
-``````
-![Breakout V1](/images/breakoutv1-1.png) Para evitar que se salga, lo que hacemos es que cuando su nueva posición se encuentre fuera de los límites del cuadro le cambiamos la dirección antes de actualizarla. Es decir, si su posición actual más la dx o dy quedan fuera de los límites (mayor que WIDTH por la derecha, menor que 0 por la izquierda, mayor que HEIGHT por abajo, menor que 0 por arriba), cambiamos el signo de dx o dy (según corresponda) para que la bola comience a ir en dirección opuesta, creando la sensación de que «rebota» en los bordes. Podríamos hacer también que cada vez que choque acelere un poco si además incrementamos dx o dy, aunque eso quedará para el tema de los niveles de dificultad (aumento de velocidad) en el futuro.
-
-Por ahora tenemos bastante. Hemos creado el cuadro y le hemos puesto una bola que se mueve constantemente y rebota en sus cuatro lados, siendo esto último quizás lo más importante. En la próxima parte veremos cómo incluir la barra de abajo y cómo controlarla, los bloques a destruir y la manera de hacerlo.
+With this we have initialized the project, we have a first view of the game field and the ball that we will be using. Next time we will refactor and make some auxiliary functions, and start moving things!
 
 ## Index
 
-1. **The Ball**
-2. [The Blocks]()
-3. [Finishing Touches]()
+1. **Initialization**
+2. [Refactor and Movement](/2022/11/05/breakout-v1-part-ii)
+3. [The Blocks]()
+4. [Finishing Touches]()
